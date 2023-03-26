@@ -1,0 +1,150 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    max-width: 70rem;
+    padding: 0 1rem ;
+    margin: auto;
+}
+header{
+    padding: 1rem;
+}
+ul{
+    max-width: 40rem;
+    margin: auto; 
+    /* background-color: blue; */
+}
+li{
+    list-style: none;
+    padding: .5rem .5rem;
+    border: 2px solid #3f753f;
+    border-radius: 7px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    width: 10rem;
+    font-size: 19px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    margin: auto;
+    padding: 1rem 0;
+    width: 100%;
+    height: 100%;
+}
+.scroll{
+    padding: 2px;
+}
+.scroll::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+.scroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+.scroll::-webkit-scrollbar-thumb {
+    background: #3f753f;
+    border-radius: 10px;
+  }
+.scroll{
+    overflow: auto;
+    max-height: 30rem;
+}
+table {
+    margin: auto;
+    padding: 1rem 0;
+    table-layout: fixed;
+    min-width: 50rem;
+    width: auto;
+    height: 100%;
+    border-collapse: collapse;
+    border: 3px solid #3f753f;
+
+}
+.tbcontainer{
+  /* width: 100%; */
+  min-width: 100%;
+}
+.first table{
+  margin: auto;
+}
+.second table{
+  margin: auto;
+}
+thead th,
+tbody th,
+tfoot {
+  text-align: left;
+}
+
+thead tr,
+tbody tr:nth-child(even){
+  background-color: #769276;
+  color: white;
+}
+th,
+td {
+  padding: 10px;
+}
+
+select,
+option,
+button{
+  padding: .5rem .3rem;
+  outline: none;
+  border-radius: 7px;
+  font-size: 15px;
+  margin: 0 .3rem;
+}
+
+#form{
+  display: flex;
+  justify-content: center;
+}
+table{
+  margin: 1rem 0;
+}
+
+.hide{
+  display: none;
+}
+
+.cap{
+  text-align: center;
+  padding: 1rem 0;
+    text-transform: capitalize;
+}
+
+.add-result form{
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 40rem;
+  padding: 0 1.5rem;
+}
+.form-group{
+  display: block;
+  width: 100%;
+  padding: .5rem 0;
+}
+input{
+  margin: .4rem 0;
+  display: block;
+  width: 100%;
+  padding: .5rem;
+  border: 1px solid green;
+  border-radius: 7px;
+  outline: none;
+  font-size: 15px;
+}
